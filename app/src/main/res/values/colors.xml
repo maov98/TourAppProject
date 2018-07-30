@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="eventItemColor">#00897b</color>
+    <color name="restaurantItemColor">#7b1fa2</color>
+    <color name="placesItemColor">#EC407A</color>
+    <color name="hotelsItemColor">#ff5722</color>
+    <color name="detailLayourColor">#80d8ff</color>
+    <color name="detailFragmentTextColor">#000000</color>
+
+</resources>

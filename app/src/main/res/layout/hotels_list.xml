@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/normalPaddingValue"
+        android:paddingTop="@dimen/normalPaddingValue">
+
+        <ImageView
+
+            android:id="@+id/hotelImage"
+            style="@style/Fragment1ImageViewStyle"
+            android:src="@drawable/copanhonduras3" />
+
+        <TextView
+
+            android:id="@+id/hotelDescription"
+            style="@style/Fragment1TextViewStyle"
+            android:text="@string/placeDescription"
+            android:background="@color/hotelsItemColor" />
+
+        <TextView
+
+            android:id="@+id/hotelActionButton"
+            style="@style/Fragment1ActionButtonStyle"
+            android:drawableRight="@drawable/ic_swap_vert_black_24dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

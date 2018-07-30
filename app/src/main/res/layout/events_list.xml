@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/normalPaddingValue"
+        android:paddingTop="@dimen/normalPaddingValue">
+
+        <ImageView
+
+            android:id="@+id/eventImage"
+            style="@style/Fragment1ImageViewStyle"
+            android:src="@drawable/copanhonduras3" />
+
+        <TextView
+
+            android:id="@+id/eventDescription"
+            style="@style/Fragment1TextViewStyle"
+            android:text="@string/placeDescription"
+            android:background="#00897b" />
+
+        <TextView
+
+            android:id="@+id/eventActionButton"
+            style="@style/Fragment1ActionButtonStyle"
+            android:drawableRight="@drawable/ic_swap_vert_black_24dp"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
